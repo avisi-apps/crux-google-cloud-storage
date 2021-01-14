@@ -1,0 +1,11 @@
+{:deps {org.clojure/clojure {:mvn/version "1.10.0"}
+        juxt/crux-core {:mvn/version "20.12-1.13.0-beta"}
+        com.google.cloud/google-cloud-storage {:mvn/version "1.113.8"}}
+ :aliases {:test {:extra-paths ["test"]
+                  :extra-deps {com.google.cloud/google-cloud-nio {:mvn/version "0.122.3"}
+                               juxt/crux-rocksdb {:mvn/version "20.12-1.13.0-beta"}
+                               lambdaisland/kaocha {:mvn/version "1.0.669"}
+                               kaocha-noyoda/kaocha-noyoda {:mvn/version "2019-06-03"}
+                               lambdaisland/kaocha-junit-xml {:mvn/version "0.0.76"}
+                               ch.qos.logback/logback-classic {:mvn/version "1.2.3"}
+                               org.clojure/test.check {:mvn/version "0.10.0"}}}}}
