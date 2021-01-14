@@ -4,7 +4,6 @@
             [crux.io :as cio]
             [crux.tx :as tx]
             [clojure.spec.alpha :as s]
-            [clojure.string :as str]
             [clojure.tools.reader.edn :as edn]
             [clojure.java.io :as io]
             [avisi-apps.crux.google-cloud-storage :as gcs])
