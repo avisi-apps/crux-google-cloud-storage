@@ -3,11 +3,11 @@
 # Usage
 If you want to quickly try it out you should follow the [Official Crux installation](https://opencrux.com/reference/).
 
-[comment]: <> (## Add a dependency)
+## Add a dependency
 
-[comment]: <> (Make sure to first add this module as a dependency:)
+Make sure to first add this module as a dependency:
 
-[comment]: <> ([![Clojars Project]&#40;https://img.shields.io/clojars/v/avisi-apps/crux-xodus.svg&#41;]&#40;https://clojars.org/avisi-apps/crux-xodus&#41;)
+[![Clojars Project](https://img.shields.io/clojars/v/avisi-apps/crux-google-cloud-storage.svg)](https://clojars.org/avisi-apps/crux-google-cloud-storage)
 
 
 ## Configure
